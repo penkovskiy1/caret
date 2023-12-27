@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="«Разрабатываю приложение в рамках пм01»"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="320dp"
+        android:layout_height="526dp"
+        android:text="Правила игры Сапер  Цель игры  Цель игры - открыть все ячейки на игровом поле, не открывая ячейки с минами.  Игровое поле  Игровое поле представляет собой квадратную или прямоугольную решетку из ячеек. В каждой ячейке может находиться либо мина, либо число. Число в ячейке указывает, сколько мин находится в соседних ячейках.  Расстановка мин  Мины расставляются случайным образом на игровом поле. Количество мин определяется размером игрового поля и уровнем сложности игры.  Ход игрока  В свой ход игрок может открыть одну ячейку на игровом поле. Если открытая ячейка не содержит мины, то игрок может открыть соседние ячейки. Если открытая ячейка содержит мину, то игрок проигрывает.  Сложность игры  Сложность игры определяется размером игрового поля и количеством мин. Чем больше игровое поле и количество мин, тем сложнее игра.  Дополнительные правила  В некоторых версиях игры игрок может использовать дополнительные правила, такие как:  Флаг - игрок может поставить флаг на ячейку, чтобы отметить ее как потенциальную мину. Подсказка - игрок может получить подсказку о том, сколько мин находится в соседних ячейках. Победитель игры  Игрок побеждает, если он открывает все ячейки на игровом поле, не открывая ячейки с минами."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
